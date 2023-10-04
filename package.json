@@ -4,7 +4,7 @@
   "description": "Server for Food Manor Web App.",
   "main": "index.js",
   "scripts": {
-    "start" : "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "author": "Laxmi Kumar Sahani",
   "license": "ISC",
