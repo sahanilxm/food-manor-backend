@@ -3,5 +3,6 @@ dotenv.config();
 
 module.exports = {
     PORT : process.env.PORT,
-    SWIGGY_RESTAURANT : process.env.SWIGGY_RESTAURANT
+    SWIGGY_RESTAURANTS : process.env.SWIGGY_RESTAURANTS,
+    SWIGGY_RESTAURANT_MENU : process.env.SWIGGY_RESTAURANT_MENU
 }

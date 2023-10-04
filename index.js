@@ -10,6 +10,7 @@ const setupAndRunServer = () => {
     app.use(cors());
 
     app.get('/api/restaurants', Service.getRestaurants);
+    app.get('/api/restaurants/menu', Service.getRestaurantMenu);
 
     app.listen(PORT, ()=>{
         console.log(`Server started on Port number: ${PORT}`);
